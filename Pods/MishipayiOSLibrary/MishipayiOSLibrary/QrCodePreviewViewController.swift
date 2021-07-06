@@ -52,7 +52,7 @@ class QrCodePreviewViewController: UIViewController {
         let navigationBar : UINavigationBar = UINavigationBar(frame: CGRect(x: 0, y: sh, width: width, height: 44))
         self.view.addSubview(navigationBar)
         navigationItem.title = "Order Qr Code"
-        navigationItem.leftBarButtonItem = UIBarButtonItem(image: UIImage(named: "back_arrow"), style: .done, target: self, action: #selector(didTapBack))
+        navigationItem.leftBarButtonItem = UIBarButtonItem(image: ImageProvider.backArrow(), style: .done, target: self, action: #selector(didTapBack))
         navigationBar.setItems([navigationItem], animated: false)
     }
     

@@ -1,5 +1,5 @@
 # Uncomment the next line to define a global platform for your project
-# platform :ios, '9.0'
+platform :ios, '14.3'
 
 source 'https://github.com/vickydcoder/MishipayiOSLibrary.git'
 source 'https://github.com/CocoaPods/Specs.git'
@@ -9,6 +9,6 @@ target 'SampleiOSApp' do
   use_frameworks!
 
   # Pods for SampleiOSApp
-pod 'MishipayiOSLibrary', '1.0.0'
+pod 'MishipayiOSLibrary', '2.0.0'
 
 end
