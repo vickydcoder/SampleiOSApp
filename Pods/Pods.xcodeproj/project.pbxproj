@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07E3A15AE122EEEE909D523087917E17 /* WebAppCallBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67887BDC7EA68AA202CEC377046E8602 /* WebAppCallBack.swift */; };
+		2F86508701CD19C53498F5DCCAA0D6B7 /* QrCodePreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905D0650A92EB4FBD54C4EAF12C6A36B /* QrCodePreviewViewController.swift */; };
+		34A58E0C5382C7EFEDBEC56D5DE16C99 /* WebAppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8A3A57257F6861A35F64D0440A61A0 /* WebAppConfig.swift */; };
+		5FC4B9F46606D2C556A9FC20EE13EF66 /* MishipayiOSLibrary-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 91434E1683CE49CBDB9FFCCEE6C20A63 /* MishipayiOSLibrary-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87DB197D2D9D77CD392C659AD226FEBF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		AABDB00C6362A8FC273C7B9079830EF2 /* Pods-SampleiOSApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 671399ACC7AF00535458493807E9B528 /* Pods-SampleiOSApp-dummy.m */; };
+		B08FD2CF4D9410FB242211E56F9807AC /* MishipayiOSLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EF5448973960C3F545AA4BD79059836 /* MishipayiOSLibrary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC6B0751B02080B13FCC88A1CDD4142E /* Pods-SampleiOSApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D33858738E2AF27801D89B8CA1F915F5 /* Pods-SampleiOSApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE5C023C4CDACC7F38A727752C4ED69C /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2166272D511693F06425E55DDD0A79 /* WebViewController.swift */; };
+		F18418BFECE40C162861FC3C8DB56B37 /* MishipayiOSLibrary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F4CC5F1BB29D0ED524B1BAC8D9882CB1 /* MishipayiOSLibrary-dummy.m */; };
+		FBAAE753CC00F9FF001E74B432008D44 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC767A73B29F29E05B764767C4E2D26F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33FA2E8956DB19FDB956F1DBB6717DD5;
+			remoteInfo = MishipayiOSLibrary;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00CD249C30D428F927B07D02087BF99D /* Pods_SampleiOSApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SampleiOSApp.framework; path = "Pods-SampleiOSApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		06DFD9094BB6ED712194D8A2C0604932 /* Pods-SampleiOSApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SampleiOSApp-frameworks.sh"; sourceTree = "<group>"; };
+		0E2166272D511693F06425E55DDD0A79 /* WebViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebViewController.swift; path = MishipayiOSLibrary/WebViewController.swift; sourceTree = "<group>"; };
+		1614F614C0B9704CE970C301F8FBB00A /* MishipayiOSLibrary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MishipayiOSLibrary.debug.xcconfig; sourceTree = "<group>"; };
+		288922FAE82E7395075177FB04BA0917 /* Pods-SampleiOSApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SampleiOSApp-Info.plist"; sourceTree = "<group>"; };
+		4624E7944E584B21D9B716EB0C98F164 /* MishipayiOSLibrary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MishipayiOSLibrary-prefix.pch"; sourceTree = "<group>"; };
+		50D531D8725D7BC270B33C6EED1C7F02 /* Pods-SampleiOSApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SampleiOSApp.modulemap"; sourceTree = "<group>"; };
+		6624FC8CC2D352EBA3FEC09B007F6672 /* MishipayiOSLibrary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MishipayiOSLibrary.release.xcconfig; sourceTree = "<group>"; };
+		671399ACC7AF00535458493807E9B528 /* Pods-SampleiOSApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SampleiOSApp-dummy.m"; sourceTree = "<group>"; };
+		67887BDC7EA68AA202CEC377046E8602 /* WebAppCallBack.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebAppCallBack.swift; path = MishipayiOSLibrary/WebAppCallBack.swift; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7B31AD0987D0B82071E1B47382455483 /* Pods-SampleiOSApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SampleiOSApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8281BBD2B96767E7EB76A9BF1D75B3FF /* Pods-SampleiOSApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SampleiOSApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		905D0650A92EB4FBD54C4EAF12C6A36B /* QrCodePreviewViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QrCodePreviewViewController.swift; path = MishipayiOSLibrary/QrCodePreviewViewController.swift; sourceTree = "<group>"; };
+		91434E1683CE49CBDB9FFCCEE6C20A63 /* MishipayiOSLibrary-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MishipayiOSLibrary-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EF5448973960C3F545AA4BD79059836 /* MishipayiOSLibrary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MishipayiOSLibrary.h; path = MishipayiOSLibrary/MishipayiOSLibrary.h; sourceTree = "<group>"; };
+		A0E91A31F2144565A1527D8006850BF3 /* MishipayiOSLibrary-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MishipayiOSLibrary-Info.plist"; sourceTree = "<group>"; };
+		D33858738E2AF27801D89B8CA1F915F5 /* Pods-SampleiOSApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SampleiOSApp-umbrella.h"; sourceTree = "<group>"; };
+		DA5F43766FB255C0EEB5A9C7BF7952E0 /* MishipayiOSLibrary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MishipayiOSLibrary.modulemap; sourceTree = "<group>"; };
+		ED8A3A57257F6861A35F64D0440A61A0 /* WebAppConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebAppConfig.swift; path = MishipayiOSLibrary/WebAppConfig.swift; sourceTree = "<group>"; };
+		F03C01DFDF694817FB53B28E164764EA /* Pods-SampleiOSApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SampleiOSApp.release.xcconfig"; sourceTree = "<group>"; };
+		F4CC5F1BB29D0ED524B1BAC8D9882CB1 /* MishipayiOSLibrary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MishipayiOSLibrary-dummy.m"; sourceTree = "<group>"; };
+		F93429B0D0564099F625A144640FA9B3 /* MishipayiOSLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MishipayiOSLibrary.framework; path = MishipayiOSLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDCD0082E5D4FEF60895E9D014784CEE /* Pods-SampleiOSApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SampleiOSApp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFFAF856FF23E3D9B1594FB799C2FE0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87DB197D2D9D77CD392C659AD226FEBF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6236777FF0F63ACE1484CC416FFF3F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBAAE753CC00F9FF001E74B432008D44 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		183DE57DD6E0D9EE0F6FD1CD2C71D6A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F93429B0D0564099F625A144640FA9B3 /* MishipayiOSLibrary.framework */,
+				00CD249C30D428F927B07D02087BF99D /* Pods_SampleiOSApp.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		305CCD95ACA6688C8A6106F38F60C5EB /* MishipayiOSLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				9EF5448973960C3F545AA4BD79059836 /* MishipayiOSLibrary.h */,
+				905D0650A92EB4FBD54C4EAF12C6A36B /* QrCodePreviewViewController.swift */,
+				67887BDC7EA68AA202CEC377046E8602 /* WebAppCallBack.swift */,
+				ED8A3A57257F6861A35F64D0440A61A0 /* WebAppConfig.swift */,
+				0E2166272D511693F06425E55DDD0A79 /* WebViewController.swift */,
+				58AAD193F95DF6FD2D1EF7E04AC06E9D /* Support Files */,
+			);
+			name = MishipayiOSLibrary;
+			path = MishipayiOSLibrary;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		58AAD193F95DF6FD2D1EF7E04AC06E9D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA5F43766FB255C0EEB5A9C7BF7952E0 /* MishipayiOSLibrary.modulemap */,
+				F4CC5F1BB29D0ED524B1BAC8D9882CB1 /* MishipayiOSLibrary-dummy.m */,
+				A0E91A31F2144565A1527D8006850BF3 /* MishipayiOSLibrary-Info.plist */,
+				4624E7944E584B21D9B716EB0C98F164 /* MishipayiOSLibrary-prefix.pch */,
+				91434E1683CE49CBDB9FFCCEE6C20A63 /* MishipayiOSLibrary-umbrella.h */,
+				1614F614C0B9704CE970C301F8FBB00A /* MishipayiOSLibrary.debug.xcconfig */,
+				6624FC8CC2D352EBA3FEC09B007F6672 /* MishipayiOSLibrary.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MishipayiOSLibrary";
+			sourceTree = "<group>";
+		};
+		887173F17B9CC4080A6BC9657823B625 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				305CCD95ACA6688C8A6106F38F60C5EB /* MishipayiOSLibrary */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C49F3E0C835A587AAF06914DE9468769 /* Pods-SampleiOSApp */ = {
+			isa = PBXGroup;
+			children = (
+				50D531D8725D7BC270B33C6EED1C7F02 /* Pods-SampleiOSApp.modulemap */,
+				7B31AD0987D0B82071E1B47382455483 /* Pods-SampleiOSApp-acknowledgements.markdown */,
+				8281BBD2B96767E7EB76A9BF1D75B3FF /* Pods-SampleiOSApp-acknowledgements.plist */,
+				671399ACC7AF00535458493807E9B528 /* Pods-SampleiOSApp-dummy.m */,
+				06DFD9094BB6ED712194D8A2C0604932 /* Pods-SampleiOSApp-frameworks.sh */,
+				288922FAE82E7395075177FB04BA0917 /* Pods-SampleiOSApp-Info.plist */,
+				D33858738E2AF27801D89B8CA1F915F5 /* Pods-SampleiOSApp-umbrella.h */,
+				FDCD0082E5D4FEF60895E9D014784CEE /* Pods-SampleiOSApp.debug.xcconfig */,
+				F03C01DFDF694817FB53B28E164764EA /* Pods-SampleiOSApp.release.xcconfig */,
+			);
+			name = "Pods-SampleiOSApp";
+			path = "Target Support Files/Pods-SampleiOSApp";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				887173F17B9CC4080A6BC9657823B625 /* Pods */,
+				183DE57DD6E0D9EE0F6FD1CD2C71D6A3 /* Products */,
+				E442F75042287BD5EA09982A664C1152 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E442F75042287BD5EA09982A664C1152 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C49F3E0C835A587AAF06914DE9468769 /* Pods-SampleiOSApp */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		102467CBB6394704DEE1C9606677ADC4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FC4B9F46606D2C556A9FC20EE13EF66 /* MishipayiOSLibrary-umbrella.h in Headers */,
+				B08FD2CF4D9410FB242211E56F9807AC /* MishipayiOSLibrary.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCD745FEE14DFD7F067CA8071D0493F8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC6B0751B02080B13FCC88A1CDD4142E /* Pods-SampleiOSApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		33FA2E8956DB19FDB956F1DBB6717DD5 /* MishipayiOSLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A50A2AEACC936DCA4A26E1B9716B74E4 /* Build configuration list for PBXNativeTarget "MishipayiOSLibrary" */;
+			buildPhases = (
+				102467CBB6394704DEE1C9606677ADC4 /* Headers */,
+				C9795316100EF04DCF51A2D90E6E93BF /* Sources */,
+				D6236777FF0F63ACE1484CC416FFF3F4 /* Frameworks */,
+				787FB7BF9165B6B4DBA85D5DA38AFB5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MishipayiOSLibrary;
+			productName = MishipayiOSLibrary;
+			productReference = F93429B0D0564099F625A144640FA9B3 /* MishipayiOSLibrary.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6BCBDA84D88FA268AE9124644D495654 /* Pods-SampleiOSApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8114201E45F4F73274F40696D0BE0BC /* Build configuration list for PBXNativeTarget "Pods-SampleiOSApp" */;
+			buildPhases = (
+				CCD745FEE14DFD7F067CA8071D0493F8 /* Headers */,
+				4C60FC8D1DB9F7DEE61B8241FA44E250 /* Sources */,
+				CFFAF856FF23E3D9B1594FB799C2FE0F /* Frameworks */,
+				2D28BABC5F216F4354BDD74776C25EBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEC7E1338F755433FA09F18341512F21 /* PBXTargetDependency */,
+			);
+			name = "Pods-SampleiOSApp";
+			productName = "Pods-SampleiOSApp";
+			productReference = 00CD249C30D428F927B07D02087BF99D /* Pods_SampleiOSApp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 183DE57DD6E0D9EE0F6FD1CD2C71D6A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33FA2E8956DB19FDB956F1DBB6717DD5 /* MishipayiOSLibrary */,
+				6BCBDA84D88FA268AE9124644D495654 /* Pods-SampleiOSApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D28BABC5F216F4354BDD74776C25EBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		787FB7BF9165B6B4DBA85D5DA38AFB5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C60FC8D1DB9F7DEE61B8241FA44E250 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AABDB00C6362A8FC273C7B9079830EF2 /* Pods-SampleiOSApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9795316100EF04DCF51A2D90E6E93BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F18418BFECE40C162861FC3C8DB56B37 /* MishipayiOSLibrary-dummy.m in Sources */,
+				2F86508701CD19C53498F5DCCAA0D6B7 /* QrCodePreviewViewController.swift in Sources */,
+				07E3A15AE122EEEE909D523087917E17 /* WebAppCallBack.swift in Sources */,
+				34A58E0C5382C7EFEDBEC56D5DE16C99 /* WebAppConfig.swift in Sources */,
+				CE5C023C4CDACC7F38A727752C4ED69C /* WebViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DEC7E1338F755433FA09F18341512F21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MishipayiOSLibrary;
+			target = 33FA2E8956DB19FDB956F1DBB6717DD5 /* MishipayiOSLibrary */;
+			targetProxy = AC767A73B29F29E05B764767C4E2D26F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		007B0E61E8FBDA24BE75CB21C096128E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDCD0082E5D4FEF60895E9D014784CEE /* Pods-SampleiOSApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SampleiOSApp/Pods-SampleiOSApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SampleiOSApp/Pods-SampleiOSApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		125C51B0F88E28C868DC90BD45E4E727 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		204368E855974F4E07A3BE070BC5F5C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F03C01DFDF694817FB53B28E164764EA /* Pods-SampleiOSApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SampleiOSApp/Pods-SampleiOSApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SampleiOSApp/Pods-SampleiOSApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4B02C25544A1FDF795FD2C4ADE09D6BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6624FC8CC2D352EBA3FEC09B007F6672 /* MishipayiOSLibrary.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MishipayiOSLibrary/MishipayiOSLibrary-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MishipayiOSLibrary/MishipayiOSLibrary-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MishipayiOSLibrary/MishipayiOSLibrary.modulemap";
+				PRODUCT_MODULE_NAME = MishipayiOSLibrary;
+				PRODUCT_NAME = MishipayiOSLibrary;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.3.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8D85BBBB00628E79F4996203F3F7FDB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1614F614C0B9704CE970C301F8FBB00A /* MishipayiOSLibrary.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MishipayiOSLibrary/MishipayiOSLibrary-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MishipayiOSLibrary/MishipayiOSLibrary-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MishipayiOSLibrary/MishipayiOSLibrary.modulemap";
+				PRODUCT_MODULE_NAME = MishipayiOSLibrary;
+				PRODUCT_NAME = MishipayiOSLibrary;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.3.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		92A3E9AC052A7345115439021B218E3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				125C51B0F88E28C868DC90BD45E4E727 /* Debug */,
+				92A3E9AC052A7345115439021B218E3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A50A2AEACC936DCA4A26E1B9716B74E4 /* Build configuration list for PBXNativeTarget "MishipayiOSLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D85BBBB00628E79F4996203F3F7FDB5 /* Debug */,
+				4B02C25544A1FDF795FD2C4ADE09D6BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8114201E45F4F73274F40696D0BE0BC /* Build configuration list for PBXNativeTarget "Pods-SampleiOSApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				007B0E61E8FBDA24BE75CB21C096128E /* Debug */,
+				204368E855974F4E07A3BE070BC5F5C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

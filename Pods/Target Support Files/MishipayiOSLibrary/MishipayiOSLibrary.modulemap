@@ -1,0 +1,6 @@
+framework module MishipayiOSLibrary {
+  umbrella header "MishipayiOSLibrary-umbrella.h"
+
+  export *
+  module * { export * }
+}

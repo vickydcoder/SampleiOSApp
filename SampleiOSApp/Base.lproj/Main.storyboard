@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SampleiOSApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UWq-K6-i1L">
+                                <rect key="frame" x="148" y="756" width="106" height="30"/>
+                                <state key="normal" title="Scan &amp; Go (PA)"/>
+                                <connections>
+                                    <action selector="scanGoPA:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JXf-S0-zM6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sKi-oq-vLI">
+                                <rect key="frame" x="147" y="716" width="106" height="30"/>
+                                <state key="normal" title="Scan &amp; Go (BT)"/>
+                                <connections>
+                                    <action selector="scanGo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5pp-DW-36s"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="AkS-Im-mJb">
+                                <rect key="frame" x="42" y="117" width="338" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oM9-qM-grw">
+                                <rect key="frame" x="148" y="797" width="117" height="30"/>
+                                <state key="normal" title="Scan &amp; Go (NPA)"/>
+                                <connections>
+                                    <action selector="scanGoNPA:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5iL-In-Arn"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="UWq-K6-i1L" firstAttribute="top" secondItem="sKi-oq-vLI" secondAttribute="bottom" constant="8" id="7mH-vv-KRr"/>
+                            <constraint firstItem="oM9-qM-grw" firstAttribute="top" secondItem="UWq-K6-i1L" secondAttribute="bottom" constant="8" id="Bxc-Fr-JrV"/>
+                            <constraint firstItem="sKi-oq-vLI" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="JcM-FS-ljL"/>
+                            <constraint firstItem="sKi-oq-vLI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="WtV-Ic-3Ma"/>
+                            <constraint firstItem="UWq-K6-i1L" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="XBO-zE-yiy"/>
+                            <constraint firstItem="oM9-qM-grw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="aJy-QK-TaN"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="textView" destination="AkS-Im-mJb" id="VZ9-1g-QQR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-23.188405797101453" y="60.9375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
