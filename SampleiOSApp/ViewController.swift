@@ -48,7 +48,8 @@ class ViewController: UIViewController ,WebAppCallBack{
             sessionId: "ABCDEF",
             lat: lat,
             long: long,
-            openController:self, webAppCallback:self)
+            openController:self,
+            webAppCallback:self)
         web.startShoppingCart()
 }
 
