@@ -26,7 +26,7 @@ A step by step series of installing Mishipay-Library
 Step 1. To integrate MishipayiOSLibrary into your Xcode project using CocoaPods, specify it in your `Podfile`:
 
 ```ruby
-pod 'MishipayiOSLibrary', '2.0.1'
+pod 'MishipayiOSLibrary', '2.0.0'
 ```
 ##### Note:- Make Sure that you are adding following source in your podfile to install the sdk 
 ```ruby
@@ -123,3 +123,5 @@ https://github.com/vickydcoder/SampleiOSApp
 This project is licensed under MIT license
 
 `Copyright 2021 | All Rights Reserved by MishiPay Ltd.`
+
+        

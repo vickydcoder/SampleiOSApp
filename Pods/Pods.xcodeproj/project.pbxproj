@@ -7,123 +7,113 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0706703689DEA56C80866E3FA93F6DEF /* MishipayiOSLibrary-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FEF764337C3FC7299260D7903D9D2A1 /* MishipayiOSLibrary-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		26AA7D6635A414C30346D0FD8CD94A21 /* MishipayiOSLibrary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F7567A6BBFD645FF852C4D62451ABC /* MishipayiOSLibrary-dummy.m */; };
-		7966CEAB194CB0A307307BA3DB64AC01 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		7E4BEDEDC42FB1D5B6EACFF4009BFE59 /* ImageProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D16258685C94AF55D9CAD0CEC7833F /* ImageProvider.swift */; };
-		82B2B03FC392D9327F03D1142C2E5209 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52FC8A6163A6A7C64E800CD07FF06A94 /* Media.xcassets */; };
-		87DB197D2D9D77CD392C659AD226FEBF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		95882826A767F47AB570ABA0EAE7DDF9 /* WebAppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = E877E1B07D4EC5B455D021CFEFB05566 /* WebAppConfig.swift */; };
-		9CAA027DA876E690A3F23EDB1409DB6E /* MishipayiOSLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = 27412397685420512C7B19A95CB489E8 /* MishipayiOSLibrary.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AABDB00C6362A8FC273C7B9079830EF2 /* Pods-SampleiOSApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 671399ACC7AF00535458493807E9B528 /* Pods-SampleiOSApp-dummy.m */; };
-		CC6B0751B02080B13FCC88A1CDD4142E /* Pods-SampleiOSApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D33858738E2AF27801D89B8CA1F915F5 /* Pods-SampleiOSApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DCC9841D6D7B93231FBF2B36F301C255 /* WebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40ED8232A614F7DDA27B6A9EABE21727 /* WebViewController.xib */; };
-		E986C0B071469C4CC597DBC0E77CDA7F /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C4D592C11108010536D46365E3639E /* WebViewController.swift */; };
-		F12D4C808B137262942EB6FD335B47FB /* QrCodePreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDC01FB75F24347A90E08EEB64F8262 /* QrCodePreviewViewController.swift */; };
-		FA02AD5803999FE4E2DE0DBD70434308 /* WebAppCallBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D185009045C93E87E987765D0F261F4 /* WebAppCallBack.swift */; };
+		1D59F773CBF399410A7F966FB441CECE /* MishiPaySDKv2-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B5855ADD3365178EAFE62E64A1EF526A /* MishiPaySDKv2-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2333A873610A90B5626F71364B460D78 /* QrCodePreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFAF443C56917A9AF2F8FCD82509631A /* QrCodePreviewViewController.swift */; };
+		3E6ED6D6CAD6463678C9E834C0027A17 /* ImageProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB0317AF30B76186CADF2F310534A45 /* ImageProvider.swift */; };
+		4C02EAD469D68715AE183CE9B7334C92 /* WebAppCallBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C2FE953C5609C8A7BD9E04441586E3 /* WebAppCallBack.swift */; };
+		756248A400F9FF836EFBE460754BAC7D /* WebAppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD025F0C145D50970C8E82B5D442BA95 /* WebAppConfig.swift */; };
+		787FFD54116C0DF32C92EF38FB705EFC /* Pods-SampleiOSApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D33858738E2AF27801D89B8CA1F915F5 /* Pods-SampleiOSApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		807203F27D671DB98AAEF39D64557EE4 /* MishiPaySDKv2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AB00CCEFA6A4543B19AADA21C44D6D44 /* MishiPaySDKv2-dummy.m */; };
+		8D08BDD6F3E2771FE91517B13F29C357 /* MishipayiOSLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = FDE0B6EC76731946A635AF807173E6EE /* MishipayiOSLibrary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B279AAD96F194E736C8FC1EE9F2111AD /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7009FA22014B66176C6C7C71660DEFAE /* WebViewController.swift */; };
+		D24CFE60EBAAF527B50E563013E0EDC1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		DAB1E443D56BFD7F3344F549779AE4D9 /* Pods-SampleiOSApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 671399ACC7AF00535458493807E9B528 /* Pods-SampleiOSApp-dummy.m */; };
+		DC5C636DDE31626858E874C8334B7E9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		EC7D3CF190BD0EC134D0BDE150513012 /* WebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D70952636381C17DB541E7FDFC062BF /* WebViewController.xib */; };
+		F1BB4EA0B55F0E416B66338148494936 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F05F7977C82D864564B85551738CC27 /* Media.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		08FFDE60A1BCA04A29A8EF9254E8E155 /* PBXContainerItemProxy */ = {
+		0F0351EAACB7D15B7D83F8384BE075CA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 33FA2E8956DB19FDB956F1DBB6717DD5;
-			remoteInfo = MishipayiOSLibrary;
+			remoteGlobalIDString = 74630368180E1D03EB5DEC06ADC90852;
+			remoteInfo = MishiPaySDKv2;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		00CD249C30D428F927B07D02087BF99D /* Pods_SampleiOSApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SampleiOSApp.framework; path = "Pods-SampleiOSApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		06DFD9094BB6ED712194D8A2C0604932 /* Pods-SampleiOSApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SampleiOSApp-frameworks.sh"; sourceTree = "<group>"; };
-		1BDC01FB75F24347A90E08EEB64F8262 /* QrCodePreviewViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QrCodePreviewViewController.swift; path = MishipayiOSLibrary/QrCodePreviewViewController.swift; sourceTree = "<group>"; };
-		22F7567A6BBFD645FF852C4D62451ABC /* MishipayiOSLibrary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MishipayiOSLibrary-dummy.m"; sourceTree = "<group>"; };
-		27412397685420512C7B19A95CB489E8 /* MishipayiOSLibrary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MishipayiOSLibrary.h; path = MishipayiOSLibrary/MishipayiOSLibrary.h; sourceTree = "<group>"; };
+		1F05F7977C82D864564B85551738CC27 /* Media.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = MishipayiOSLibrary/Media.xcassets; sourceTree = "<group>"; };
 		288922FAE82E7395075177FB04BA0917 /* Pods-SampleiOSApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SampleiOSApp-Info.plist"; sourceTree = "<group>"; };
-		40ED8232A614F7DDA27B6A9EABE21727 /* WebViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = WebViewController.xib; path = MishipayiOSLibrary/WebViewController.xib; sourceTree = "<group>"; };
-		42C4D592C11108010536D46365E3639E /* WebViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebViewController.swift; path = MishipayiOSLibrary/WebViewController.swift; sourceTree = "<group>"; };
+		2FF648DE1FA7248F099E5C16ACD695C1 /* MishiPaySDKv2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MishiPaySDKv2.debug.xcconfig; sourceTree = "<group>"; };
 		50D531D8725D7BC270B33C6EED1C7F02 /* Pods-SampleiOSApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SampleiOSApp.modulemap"; sourceTree = "<group>"; };
-		50FE595387CCB065DE9230C8B442A8F3 /* MishipayiOSLibrary-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MishipayiOSLibrary-Info.plist"; sourceTree = "<group>"; };
-		52FC8A6163A6A7C64E800CD07FF06A94 /* Media.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = MishipayiOSLibrary/Media.xcassets; sourceTree = "<group>"; };
-		55A9DA4281FCADB5432C949EA93FC084 /* MishipayiOSLibrary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MishipayiOSLibrary.release.xcconfig; sourceTree = "<group>"; };
-		573A0E8A6983A74412FB433E48C2276E /* MishipayiOSLibrary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MishipayiOSLibrary.modulemap; sourceTree = "<group>"; };
 		671399ACC7AF00535458493807E9B528 /* Pods-SampleiOSApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SampleiOSApp-dummy.m"; sourceTree = "<group>"; };
-		6D185009045C93E87E987765D0F261F4 /* WebAppCallBack.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebAppCallBack.swift; path = MishipayiOSLibrary/WebAppCallBack.swift; sourceTree = "<group>"; };
+		6D70952636381C17DB541E7FDFC062BF /* WebViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = WebViewController.xib; path = MishipayiOSLibrary/WebViewController.xib; sourceTree = "<group>"; };
+		7009FA22014B66176C6C7C71660DEFAE /* WebViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebViewController.swift; path = MishipayiOSLibrary/WebViewController.swift; sourceTree = "<group>"; };
+		70EB1759A2C54121877343FB60FFA888 /* MishiPaySDKv2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MishiPaySDKv2.framework; path = MishiPaySDKv2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7B31AD0987D0B82071E1B47382455483 /* Pods-SampleiOSApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SampleiOSApp-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8281BBD2B96767E7EB76A9BF1D75B3FF /* Pods-SampleiOSApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SampleiOSApp-acknowledgements.plist"; sourceTree = "<group>"; };
-		8FEF764337C3FC7299260D7903D9D2A1 /* MishipayiOSLibrary-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MishipayiOSLibrary-umbrella.h"; sourceTree = "<group>"; };
+		8F616AE6911992A87E3345AE1B746B9E /* MishiPaySDKv2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MishiPaySDKv2.release.xcconfig; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		CAD59314F9C0D4834A661CC178D99A1D /* MishipayiOSLibrary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MishipayiOSLibrary-prefix.pch"; sourceTree = "<group>"; };
+		AB00CCEFA6A4543B19AADA21C44D6D44 /* MishiPaySDKv2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MishiPaySDKv2-dummy.m"; sourceTree = "<group>"; };
+		B5855ADD3365178EAFE62E64A1EF526A /* MishiPaySDKv2-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MishiPaySDKv2-umbrella.h"; sourceTree = "<group>"; };
+		BAB0317AF30B76186CADF2F310534A45 /* ImageProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageProvider.swift; path = MishipayiOSLibrary/ImageProvider.swift; sourceTree = "<group>"; };
+		C6EA8320927ED6ECD5A1BCCCA6D146E7 /* MishiPaySDKv2-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MishiPaySDKv2-prefix.pch"; sourceTree = "<group>"; };
 		D33858738E2AF27801D89B8CA1F915F5 /* Pods-SampleiOSApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SampleiOSApp-umbrella.h"; sourceTree = "<group>"; };
-		DA9247CD22E3E45CE4A8A6D692966B44 /* MishipayiOSLibrary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MishipayiOSLibrary.debug.xcconfig; sourceTree = "<group>"; };
-		E877E1B07D4EC5B455D021CFEFB05566 /* WebAppConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebAppConfig.swift; path = MishipayiOSLibrary/WebAppConfig.swift; sourceTree = "<group>"; };
+		DD37FC8E538EE08601124597DDA045C7 /* MishiPaySDKv2-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MishiPaySDKv2-Info.plist"; sourceTree = "<group>"; };
 		F03C01DFDF694817FB53B28E164764EA /* Pods-SampleiOSApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SampleiOSApp.release.xcconfig"; sourceTree = "<group>"; };
-		F0D16258685C94AF55D9CAD0CEC7833F /* ImageProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageProvider.swift; path = MishipayiOSLibrary/ImageProvider.swift; sourceTree = "<group>"; };
-		F93429B0D0564099F625A144640FA9B3 /* MishipayiOSLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MishipayiOSLibrary.framework; path = MishipayiOSLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F365D34514347AD46800A54CD80F7F10 /* MishiPaySDKv2.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MishiPaySDKv2.modulemap; sourceTree = "<group>"; };
+		F9C2FE953C5609C8A7BD9E04441586E3 /* WebAppCallBack.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebAppCallBack.swift; path = MishipayiOSLibrary/WebAppCallBack.swift; sourceTree = "<group>"; };
+		FD025F0C145D50970C8E82B5D442BA95 /* WebAppConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebAppConfig.swift; path = MishipayiOSLibrary/WebAppConfig.swift; sourceTree = "<group>"; };
 		FDCD0082E5D4FEF60895E9D014784CEE /* Pods-SampleiOSApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SampleiOSApp.debug.xcconfig"; sourceTree = "<group>"; };
+		FDE0B6EC76731946A635AF807173E6EE /* MishipayiOSLibrary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MishipayiOSLibrary.h; path = MishipayiOSLibrary/MishipayiOSLibrary.h; sourceTree = "<group>"; };
+		FFAF443C56917A9AF2F8FCD82509631A /* QrCodePreviewViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QrCodePreviewViewController.swift; path = MishipayiOSLibrary/QrCodePreviewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		04F5F85657F2CD9B3ED4E415665F1958 /* Frameworks */ = {
+		7B45E4E46D6F97A3E03F4197C3BD6781 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7966CEAB194CB0A307307BA3DB64AC01 /* Foundation.framework in Frameworks */,
+				DC5C636DDE31626858E874C8334B7E9E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CFFAF856FF23E3D9B1594FB799C2FE0F /* Frameworks */ = {
+		D1E44BCDBBE31E8E154D83F70F096FCC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87DB197D2D9D77CD392C659AD226FEBF /* Foundation.framework in Frameworks */,
+				D24CFE60EBAAF527B50E563013E0EDC1 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		08A2E6EC5AFA7FF7827B2D3A85074822 /* Pods */ = {
+		1133D9BA2E18BBF1EB174AD2CF2A4B63 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				120E2ECE17A5F22CCAA84F25FD39B07D /* MishipayiOSLibrary */,
+				70EB1759A2C54121877343FB60FFA888 /* MishiPaySDKv2.framework */,
+				00CD249C30D428F927B07D02087BF99D /* Pods_SampleiOSApp.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3471E38A3014C6C5A02659448C23FEEE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CD0396AE93373F91E4430C7C18BFEA73 /* MishiPaySDKv2 */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		0EB81C30235FC62E710ABE68AFABC413 /* Resources */ = {
+		4C20AB6C8E12D8F6DF6F0CC1FE4D6052 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				52FC8A6163A6A7C64E800CD07FF06A94 /* Media.xcassets */,
-				40ED8232A614F7DDA27B6A9EABE21727 /* WebViewController.xib */,
+				F365D34514347AD46800A54CD80F7F10 /* MishiPaySDKv2.modulemap */,
+				AB00CCEFA6A4543B19AADA21C44D6D44 /* MishiPaySDKv2-dummy.m */,
+				DD37FC8E538EE08601124597DDA045C7 /* MishiPaySDKv2-Info.plist */,
+				C6EA8320927ED6ECD5A1BCCCA6D146E7 /* MishiPaySDKv2-prefix.pch */,
+				B5855ADD3365178EAFE62E64A1EF526A /* MishiPaySDKv2-umbrella.h */,
+				2FF648DE1FA7248F099E5C16ACD695C1 /* MishiPaySDKv2.debug.xcconfig */,
+				8F616AE6911992A87E3345AE1B746B9E /* MishiPaySDKv2.release.xcconfig */,
 			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		120E2ECE17A5F22CCAA84F25FD39B07D /* MishipayiOSLibrary */ = {
-			isa = PBXGroup;
-			children = (
-				F0D16258685C94AF55D9CAD0CEC7833F /* ImageProvider.swift */,
-				27412397685420512C7B19A95CB489E8 /* MishipayiOSLibrary.h */,
-				1BDC01FB75F24347A90E08EEB64F8262 /* QrCodePreviewViewController.swift */,
-				6D185009045C93E87E987765D0F261F4 /* WebAppCallBack.swift */,
-				E877E1B07D4EC5B455D021CFEFB05566 /* WebAppConfig.swift */,
-				42C4D592C11108010536D46365E3639E /* WebViewController.swift */,
-				0EB81C30235FC62E710ABE68AFABC413 /* Resources */,
-				B0E77F0231DA298B26B91BB485E0FE05 /* Support Files */,
-			);
-			name = MishipayiOSLibrary;
-			path = MishipayiOSLibrary;
-			sourceTree = "<group>";
-		};
-		183DE57DD6E0D9EE0F6FD1CD2C71D6A3 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				F93429B0D0564099F625A144640FA9B3 /* MishipayiOSLibrary.framework */,
-				00CD249C30D428F927B07D02087BF99D /* Pods_SampleiOSApp.framework */,
-			);
-			name = Products;
+			name = "Support Files";
+			path = "../Target Support Files/MishiPaySDKv2";
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -132,21 +122,6 @@
 				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		B0E77F0231DA298B26B91BB485E0FE05 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				573A0E8A6983A74412FB433E48C2276E /* MishipayiOSLibrary.modulemap */,
-				22F7567A6BBFD645FF852C4D62451ABC /* MishipayiOSLibrary-dummy.m */,
-				50FE595387CCB065DE9230C8B442A8F3 /* MishipayiOSLibrary-Info.plist */,
-				CAD59314F9C0D4834A661CC178D99A1D /* MishipayiOSLibrary-prefix.pch */,
-				8FEF764337C3FC7299260D7903D9D2A1 /* MishipayiOSLibrary-umbrella.h */,
-				DA9247CD22E3E45CE4A8A6D692966B44 /* MishipayiOSLibrary.debug.xcconfig */,
-				55A9DA4281FCADB5432C949EA93FC084 /* MishipayiOSLibrary.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/MishipayiOSLibrary";
 			sourceTree = "<group>";
 		};
 		C49F3E0C835A587AAF06914DE9468769 /* Pods-SampleiOSApp */ = {
@@ -166,13 +141,29 @@
 			path = "Target Support Files/Pods-SampleiOSApp";
 			sourceTree = "<group>";
 		};
+		CD0396AE93373F91E4430C7C18BFEA73 /* MishiPaySDKv2 */ = {
+			isa = PBXGroup;
+			children = (
+				BAB0317AF30B76186CADF2F310534A45 /* ImageProvider.swift */,
+				FDE0B6EC76731946A635AF807173E6EE /* MishipayiOSLibrary.h */,
+				FFAF443C56917A9AF2F8FCD82509631A /* QrCodePreviewViewController.swift */,
+				F9C2FE953C5609C8A7BD9E04441586E3 /* WebAppCallBack.swift */,
+				FD025F0C145D50970C8E82B5D442BA95 /* WebAppConfig.swift */,
+				7009FA22014B66176C6C7C71660DEFAE /* WebViewController.swift */,
+				EA048A7C4230584C3EB438C49161D61F /* Resources */,
+				4C20AB6C8E12D8F6DF6F0CC1FE4D6052 /* Support Files */,
+			);
+			name = MishiPaySDKv2;
+			path = MishiPaySDKv2;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				08A2E6EC5AFA7FF7827B2D3A85074822 /* Pods */,
-				183DE57DD6E0D9EE0F6FD1CD2C71D6A3 /* Products */,
+				3471E38A3014C6C5A02659448C23FEEE /* Pods */,
+				1133D9BA2E18BBF1EB174AD2CF2A4B63 /* Products */,
 				E442F75042287BD5EA09982A664C1152 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -193,64 +184,73 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		EA048A7C4230584C3EB438C49161D61F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1F05F7977C82D864564B85551738CC27 /* Media.xcassets */,
+				6D70952636381C17DB541E7FDFC062BF /* WebViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		7E35E5E5EE83ED665C3D32635EF87EA2 /* Headers */ = {
+		16A23C71140964CD12E66465A7CEFA66 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0706703689DEA56C80866E3FA93F6DEF /* MishipayiOSLibrary-umbrella.h in Headers */,
-				9CAA027DA876E690A3F23EDB1409DB6E /* MishipayiOSLibrary.h in Headers */,
+				787FFD54116C0DF32C92EF38FB705EFC /* Pods-SampleiOSApp-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CCD745FEE14DFD7F067CA8071D0493F8 /* Headers */ = {
+		5F9CD9334918254B7FD97507ED0791C7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC6B0751B02080B13FCC88A1CDD4142E /* Pods-SampleiOSApp-umbrella.h in Headers */,
+				8D08BDD6F3E2771FE91517B13F29C357 /* MishipayiOSLibrary.h in Headers */,
+				1D59F773CBF399410A7F966FB441CECE /* MishiPaySDKv2-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		33FA2E8956DB19FDB956F1DBB6717DD5 /* MishipayiOSLibrary */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 975C1DB9626E00BE29497D006053F708 /* Build configuration list for PBXNativeTarget "MishipayiOSLibrary" */;
-			buildPhases = (
-				7E35E5E5EE83ED665C3D32635EF87EA2 /* Headers */,
-				F9260ECB6B4CD74BE37BB4F18D0C9449 /* Sources */,
-				04F5F85657F2CD9B3ED4E415665F1958 /* Frameworks */,
-				7A259B60EA7CE39BAAAB4AC36ADC2B1E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = MishipayiOSLibrary;
-			productName = MishipayiOSLibrary;
-			productReference = F93429B0D0564099F625A144640FA9B3 /* MishipayiOSLibrary.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		6BCBDA84D88FA268AE9124644D495654 /* Pods-SampleiOSApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C8114201E45F4F73274F40696D0BE0BC /* Build configuration list for PBXNativeTarget "Pods-SampleiOSApp" */;
+			buildConfigurationList = 4DDAEA102E9C751D50FDA936E07A63C2 /* Build configuration list for PBXNativeTarget "Pods-SampleiOSApp" */;
 			buildPhases = (
-				CCD745FEE14DFD7F067CA8071D0493F8 /* Headers */,
-				4C60FC8D1DB9F7DEE61B8241FA44E250 /* Sources */,
-				CFFAF856FF23E3D9B1594FB799C2FE0F /* Frameworks */,
-				2D28BABC5F216F4354BDD74776C25EBB /* Resources */,
+				16A23C71140964CD12E66465A7CEFA66 /* Headers */,
+				7385B08BB8510CEF5DB980C5515BD40D /* Sources */,
+				D1E44BCDBBE31E8E154D83F70F096FCC /* Frameworks */,
+				1AB6111B7386A05ADB0E607FC7DF1210 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				FEFCC5B36D0EB78B0F3B523B7D780F5E /* PBXTargetDependency */,
+				76682975D407490123A75364F08C382A /* PBXTargetDependency */,
 			);
 			name = "Pods-SampleiOSApp";
 			productName = "Pods-SampleiOSApp";
 			productReference = 00CD249C30D428F927B07D02087BF99D /* Pods_SampleiOSApp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		74630368180E1D03EB5DEC06ADC90852 /* MishiPaySDKv2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 109758876F64735787FC1D4A75A67C0E /* Build configuration list for PBXNativeTarget "MishiPaySDKv2" */;
+			buildPhases = (
+				5F9CD9334918254B7FD97507ED0791C7 /* Headers */,
+				3C70E9E2FF5A930D8862186E846B61E2 /* Sources */,
+				7B45E4E46D6F97A3E03F4197C3BD6781 /* Frameworks */,
+				D5752D312B0E17AF394FCFF8B41F61F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MishiPaySDKv2;
+			productName = MishiPaySDKv2;
+			productReference = 70EB1759A2C54121877343FB60FFA888 /* MishiPaySDKv2.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -271,106 +271,69 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 183DE57DD6E0D9EE0F6FD1CD2C71D6A3 /* Products */;
+			productRefGroup = 1133D9BA2E18BBF1EB174AD2CF2A4B63 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				33FA2E8956DB19FDB956F1DBB6717DD5 /* MishipayiOSLibrary */,
+				74630368180E1D03EB5DEC06ADC90852 /* MishiPaySDKv2 */,
 				6BCBDA84D88FA268AE9124644D495654 /* Pods-SampleiOSApp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2D28BABC5F216F4354BDD74776C25EBB /* Resources */ = {
+		1AB6111B7386A05ADB0E607FC7DF1210 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7A259B60EA7CE39BAAAB4AC36ADC2B1E /* Resources */ = {
+		D5752D312B0E17AF394FCFF8B41F61F0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82B2B03FC392D9327F03D1142C2E5209 /* Media.xcassets in Resources */,
-				DCC9841D6D7B93231FBF2B36F301C255 /* WebViewController.xib in Resources */,
+				F1BB4EA0B55F0E416B66338148494936 /* Media.xcassets in Resources */,
+				EC7D3CF190BD0EC134D0BDE150513012 /* WebViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4C60FC8D1DB9F7DEE61B8241FA44E250 /* Sources */ = {
+		3C70E9E2FF5A930D8862186E846B61E2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AABDB00C6362A8FC273C7B9079830EF2 /* Pods-SampleiOSApp-dummy.m in Sources */,
+				3E6ED6D6CAD6463678C9E834C0027A17 /* ImageProvider.swift in Sources */,
+				807203F27D671DB98AAEF39D64557EE4 /* MishiPaySDKv2-dummy.m in Sources */,
+				2333A873610A90B5626F71364B460D78 /* QrCodePreviewViewController.swift in Sources */,
+				4C02EAD469D68715AE183CE9B7334C92 /* WebAppCallBack.swift in Sources */,
+				756248A400F9FF836EFBE460754BAC7D /* WebAppConfig.swift in Sources */,
+				B279AAD96F194E736C8FC1EE9F2111AD /* WebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F9260ECB6B4CD74BE37BB4F18D0C9449 /* Sources */ = {
+		7385B08BB8510CEF5DB980C5515BD40D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E4BEDEDC42FB1D5B6EACFF4009BFE59 /* ImageProvider.swift in Sources */,
-				26AA7D6635A414C30346D0FD8CD94A21 /* MishipayiOSLibrary-dummy.m in Sources */,
-				F12D4C808B137262942EB6FD335B47FB /* QrCodePreviewViewController.swift in Sources */,
-				FA02AD5803999FE4E2DE0DBD70434308 /* WebAppCallBack.swift in Sources */,
-				95882826A767F47AB570ABA0EAE7DDF9 /* WebAppConfig.swift in Sources */,
-				E986C0B071469C4CC597DBC0E77CDA7F /* WebViewController.swift in Sources */,
+				DAB1E443D56BFD7F3344F549779AE4D9 /* Pods-SampleiOSApp-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		FEFCC5B36D0EB78B0F3B523B7D780F5E /* PBXTargetDependency */ = {
+		76682975D407490123A75364F08C382A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = MishipayiOSLibrary;
-			target = 33FA2E8956DB19FDB956F1DBB6717DD5 /* MishipayiOSLibrary */;
-			targetProxy = 08FFDE60A1BCA04A29A8EF9254E8E155 /* PBXContainerItemProxy */;
+			name = MishiPaySDKv2;
+			target = 74630368180E1D03EB5DEC06ADC90852 /* MishiPaySDKv2 */;
+			targetProxy = 0F0351EAACB7D15B7D83F8384BE075CA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		007B0E61E8FBDA24BE75CB21C096128E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FDCD0082E5D4FEF60895E9D014784CEE /* Pods-SampleiOSApp.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SampleiOSApp/Pods-SampleiOSApp-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SampleiOSApp/Pods-SampleiOSApp.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		125C51B0F88E28C868DC90BD45E4E727 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -437,7 +400,7 @@
 			};
 			name = Debug;
 		};
-		204368E855974F4E07A3BE070BC5F5C9 /* Release */ = {
+		47293E6391858C1C5E344E5807C9C14A /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F03C01DFDF694817FB53B28E164764EA /* Pods-SampleiOSApp.release.xcconfig */;
 			buildSettings = {
@@ -537,10 +500,11 @@
 			};
 			name = Release;
 		};
-		A5276F85379D89AFCF0C01BF7A1C1D54 /* Debug */ = {
+		9CD29CF0E1E1D1FBBFC7C7F430708433 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DA9247CD22E3E45CE4A8A6D692966B44 /* MishipayiOSLibrary.debug.xcconfig */;
+			baseConfigurationReference = FDCD0082E5D4FEF60895E9D014784CEE /* Pods-SampleiOSApp.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -550,8 +514,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MishipayiOSLibrary/MishipayiOSLibrary-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MishipayiOSLibrary/MishipayiOSLibrary-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-SampleiOSApp/Pods-SampleiOSApp-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -559,22 +522,24 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/MishipayiOSLibrary/MishipayiOSLibrary.modulemap";
-				PRODUCT_MODULE_NAME = MishipayiOSLibrary;
-				PRODUCT_NAME = MishipayiOSLibrary;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SampleiOSApp/Pods-SampleiOSApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.3.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		F9A852DE88B7091F147210DC851F8A6C /* Release */ = {
+		B4DF1DC8355C1858DEFF9F6A198BB95E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 55A9DA4281FCADB5432C949EA93FC084 /* MishipayiOSLibrary.release.xcconfig */;
+			baseConfigurationReference = 2FF648DE1FA7248F099E5C16ACD695C1 /* MishiPaySDKv2.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -585,8 +550,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MishipayiOSLibrary/MishipayiOSLibrary-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MishipayiOSLibrary/MishipayiOSLibrary-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/MishiPaySDKv2/MishiPaySDKv2-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MishiPaySDKv2/MishiPaySDKv2-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -594,13 +559,48 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/MishipayiOSLibrary/MishipayiOSLibrary.modulemap";
-				PRODUCT_MODULE_NAME = MishipayiOSLibrary;
-				PRODUCT_NAME = MishipayiOSLibrary;
+				MODULEMAP_FILE = "Target Support Files/MishiPaySDKv2/MishiPaySDKv2.modulemap";
+				PRODUCT_MODULE_NAME = MishiPaySDKv2;
+				PRODUCT_NAME = MishiPaySDKv2;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.3.2;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EDEBFB137C5134072F037AF3C31BE0AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F616AE6911992A87E3345AE1B746B9E /* MishiPaySDKv2.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MishiPaySDKv2/MishiPaySDKv2-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MishiPaySDKv2/MishiPaySDKv2-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MishiPaySDKv2/MishiPaySDKv2.modulemap";
+				PRODUCT_MODULE_NAME = MishiPaySDKv2;
+				PRODUCT_NAME = MishiPaySDKv2;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -611,6 +611,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		109758876F64735787FC1D4A75A67C0E /* Build configuration list for PBXNativeTarget "MishiPaySDKv2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4DF1DC8355C1858DEFF9F6A198BB95E /* Debug */,
+				EDEBFB137C5134072F037AF3C31BE0AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -620,20 +629,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		975C1DB9626E00BE29497D006053F708 /* Build configuration list for PBXNativeTarget "MishipayiOSLibrary" */ = {
+		4DDAEA102E9C751D50FDA936E07A63C2 /* Build configuration list for PBXNativeTarget "Pods-SampleiOSApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A5276F85379D89AFCF0C01BF7A1C1D54 /* Debug */,
-				F9A852DE88B7091F147210DC851F8A6C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C8114201E45F4F73274F40696D0BE0BC /* Build configuration list for PBXNativeTarget "Pods-SampleiOSApp" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				007B0E61E8FBDA24BE75CB21C096128E /* Debug */,
-				204368E855974F4E07A3BE070BC5F5C9 /* Release */,
+				9CD29CF0E1E1D1FBBFC7C7F430708433 /* Debug */,
+				47293E6391858C1C5E344E5807C9C14A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

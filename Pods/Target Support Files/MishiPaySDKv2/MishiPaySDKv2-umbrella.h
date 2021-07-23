@@ -12,6 +12,6 @@
 
 #import "MishipayiOSLibrary.h"
 
-FOUNDATION_EXPORT double MishipayiOSLibraryVersionNumber;
-FOUNDATION_EXPORT const unsigned char MishipayiOSLibraryVersionString[];
+FOUNDATION_EXPORT double MishiPaySDKv2VersionNumber;
+FOUNDATION_EXPORT const unsigned char MishiPaySDKv2VersionString[];
 

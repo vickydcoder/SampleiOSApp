@@ -14,9 +14,9 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "33FA2E8956DB19FDB956F1DBB6717DD5"
-               BuildableName = "MishipayiOSLibrary.framework"
-               BlueprintName = "MishipayiOSLibrary"
+               BlueprintIdentifier = "74630368180E1D03EB5DEC06ADC90852"
+               BuildableName = "MishiPaySDKv2.framework"
+               BlueprintName = "MishiPaySDKv2"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

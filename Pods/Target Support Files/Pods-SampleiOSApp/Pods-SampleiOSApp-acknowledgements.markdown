@@ -1,7 +1,7 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## MishipayiOSLibrary
+## MishiPaySDKv2
 
 MIT License
 
