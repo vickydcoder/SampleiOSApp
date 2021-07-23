@@ -1,16 +1,16 @@
 PODS:
-  - MishipayiOSLibrary (2.0.0)
+  - MishipayiOSLibrary (2.0.1)
 
 DEPENDENCIES:
-  - MishipayiOSLibrary (= 2.0.0)
+  - MishipayiOSLibrary (= 2.0.1)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - MishipayiOSLibrary
 
 SPEC CHECKSUMS:
-  MishipayiOSLibrary: f66dda07be9e6466b23a84d8c08afa311bf14dd2
+  MishipayiOSLibrary: 0eb99e8bb20165bf0409cbd95cb3d9adeb9624d2
 
-PODFILE CHECKSUM: b85d8b8448e2c39c6c8b7e2c8676cb713cddd256
+PODFILE CHECKSUM: c8af24bfb28677688fc12756309895bfdbf11dbf
 
 COCOAPODS: 1.10.1

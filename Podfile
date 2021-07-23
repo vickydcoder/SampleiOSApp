@@ -9,6 +9,6 @@ target 'SampleiOSApp' do
   use_frameworks!
 
   # Pods for SampleiOSApp
-pod 'MishipayiOSLibrary', '2.0.0'
+pod 'MishipayiOSLibrary', '2.0.1'
 
 end

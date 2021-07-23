@@ -3,14 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		0706703689DEA56C80866E3FA93F6DEF /* MishipayiOSLibrary-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FEF764337C3FC7299260D7903D9D2A1 /* MishipayiOSLibrary-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		26AA7D6635A414C30346D0FD8CD94A21 /* MishipayiOSLibrary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F7567A6BBFD645FF852C4D62451ABC /* MishipayiOSLibrary-dummy.m */; };
+		7966CEAB194CB0A307307BA3DB64AC01 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		7E4BEDEDC42FB1D5B6EACFF4009BFE59 /* ImageProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D16258685C94AF55D9CAD0CEC7833F /* ImageProvider.swift */; };
 		82B2B03FC392D9327F03D1142C2E5209 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52FC8A6163A6A7C64E800CD07FF06A94 /* Media.xcassets */; };
+		87DB197D2D9D77CD392C659AD226FEBF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		95882826A767F47AB570ABA0EAE7DDF9 /* WebAppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = E877E1B07D4EC5B455D021CFEFB05566 /* WebAppConfig.swift */; };
 		9CAA027DA876E690A3F23EDB1409DB6E /* MishipayiOSLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = 27412397685420512C7B19A95CB489E8 /* MishipayiOSLibrary.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AABDB00C6362A8FC273C7B9079830EF2 /* Pods-SampleiOSApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 671399ACC7AF00535458493807E9B528 /* Pods-SampleiOSApp-dummy.m */; };
@@ -32,7 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00CD249C30D428F927B07D02087BF99D /* Pods_SampleiOSApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleiOSApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		00CD249C30D428F927B07D02087BF99D /* Pods_SampleiOSApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SampleiOSApp.framework; path = "Pods-SampleiOSApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		06DFD9094BB6ED712194D8A2C0604932 /* Pods-SampleiOSApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SampleiOSApp-frameworks.sh"; sourceTree = "<group>"; };
 		1BDC01FB75F24347A90E08EEB64F8262 /* QrCodePreviewViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QrCodePreviewViewController.swift; path = MishipayiOSLibrary/QrCodePreviewViewController.swift; sourceTree = "<group>"; };
 		22F7567A6BBFD645FF852C4D62451ABC /* MishipayiOSLibrary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MishipayiOSLibrary-dummy.m"; sourceTree = "<group>"; };
@@ -47,17 +49,18 @@
 		573A0E8A6983A74412FB433E48C2276E /* MishipayiOSLibrary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MishipayiOSLibrary.modulemap; sourceTree = "<group>"; };
 		671399ACC7AF00535458493807E9B528 /* Pods-SampleiOSApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SampleiOSApp-dummy.m"; sourceTree = "<group>"; };
 		6D185009045C93E87E987765D0F261F4 /* WebAppCallBack.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebAppCallBack.swift; path = MishipayiOSLibrary/WebAppCallBack.swift; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7B31AD0987D0B82071E1B47382455483 /* Pods-SampleiOSApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SampleiOSApp-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8281BBD2B96767E7EB76A9BF1D75B3FF /* Pods-SampleiOSApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SampleiOSApp-acknowledgements.plist"; sourceTree = "<group>"; };
 		8FEF764337C3FC7299260D7903D9D2A1 /* MishipayiOSLibrary-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MishipayiOSLibrary-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CAD59314F9C0D4834A661CC178D99A1D /* MishipayiOSLibrary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MishipayiOSLibrary-prefix.pch"; sourceTree = "<group>"; };
 		D33858738E2AF27801D89B8CA1F915F5 /* Pods-SampleiOSApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SampleiOSApp-umbrella.h"; sourceTree = "<group>"; };
 		DA9247CD22E3E45CE4A8A6D692966B44 /* MishipayiOSLibrary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MishipayiOSLibrary.debug.xcconfig; sourceTree = "<group>"; };
 		E877E1B07D4EC5B455D021CFEFB05566 /* WebAppConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebAppConfig.swift; path = MishipayiOSLibrary/WebAppConfig.swift; sourceTree = "<group>"; };
 		F03C01DFDF694817FB53B28E164764EA /* Pods-SampleiOSApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SampleiOSApp.release.xcconfig"; sourceTree = "<group>"; };
 		F0D16258685C94AF55D9CAD0CEC7833F /* ImageProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageProvider.swift; path = MishipayiOSLibrary/ImageProvider.swift; sourceTree = "<group>"; };
-		F93429B0D0564099F625A144640FA9B3 /* MishipayiOSLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MishipayiOSLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F93429B0D0564099F625A144640FA9B3 /* MishipayiOSLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MishipayiOSLibrary.framework; path = MishipayiOSLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDCD0082E5D4FEF60895E9D014784CEE /* Pods-SampleiOSApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SampleiOSApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -66,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7966CEAB194CB0A307307BA3DB64AC01 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87DB197D2D9D77CD392C659AD226FEBF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,6 +113,7 @@
 				0EB81C30235FC62E710ABE68AFABC413 /* Resources */,
 				B0E77F0231DA298B26B91BB485E0FE05 /* Support Files */,
 			);
+			name = MishipayiOSLibrary;
 			path = MishipayiOSLibrary;
 			sourceTree = "<group>";
 		};
@@ -123,6 +129,7 @@
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
@@ -256,7 +263,7 @@
 				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
