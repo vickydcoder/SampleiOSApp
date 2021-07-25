@@ -1,2 +1,2 @@
 # SampleiOSApp
-Demonstrating usage of iOS Mishipay Library
+Demonstrating usage of Mishipay iOS SDK v2
