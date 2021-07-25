@@ -1,2 +1,2 @@
 ${PODS_ROOT}/Target Support Files/Pods-SampleiOSApp/Pods-SampleiOSApp-frameworks.sh
-${BUILT_PRODUCTS_DIR}/MishiPaySDKv2/MishiPaySDKv2.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/MishiPaySDKv2/MishiPaySDKv2.framework/MishiPaySDKv2

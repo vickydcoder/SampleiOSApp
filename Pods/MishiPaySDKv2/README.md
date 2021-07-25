@@ -10,7 +10,11 @@ These instructions will get you a copy of the project up and running on your loc
 
 - iOS 14.3+ 
 - Xcode 12.5.1+
+<<<<<<< HEAD
 - Swift 5.3.2
+=======
+- Swift 5.3.2+
+>>>>>>> 5c6f53984472e2e344873071485141d961dff675
 
 ## Installation 
 A step by step series of installing Mishipay-Library
@@ -18,7 +22,13 @@ A step by step series of installing Mishipay-Library
 
 ### CocoaPods
 
+<<<<<<< HEAD
 [CocoaPods](https://cocoapods.org) is a dependency manager for Cocoa projects. For usage and installation instructions, visit their website. To view MishipayiOSLibrary on cocoapods.org click [here](https://cocoapods.org/pods/MishipayiOSLibrary)
+=======
+[CocoaPods](https://cocoapods.org) is a dependency manager for Cocoa projects. For usage and installation instructions, visit their website.
+
+##### Note:- Make Sure you have correct access rights to this repo as it is published as a private pod on Cocoapods 
+>>>>>>> 5c6f53984472e2e344873071485141d961dff675
 
 ## Initialize SDK
 
@@ -26,7 +36,8 @@ A step by step series of installing Mishipay-Library
 Step 1. To integrate MishipayiOSLibrary into your Xcode project using CocoaPods, specify it in your `Podfile`:
 
 ```ruby
-pod 'MishipayiOSLibrary', '2.0.0'
+<<<<<<< HEAD
+pod 'MishipayiOSLibrary', '2.0.2'
 ```
 ##### Note:- Make Sure that you are adding following source in your podfile to install the sdk 
 ```ruby
@@ -36,6 +47,17 @@ source 'https://github.com/CocoaPods/Specs.git'
 For reference, see example [podfile](https://github.com/vickydcoder/SampleiOSApp/blob/master/Podfile)
 
 Step 2. Do ```pod install --repo-update ```
+=======
+ pod 'MishiPaySDKv2', '2.0.1'
+```
+##### Note:- Make Sure that you are adding following source in your podfile to install the sdk 
+```ruby
+source 'https://github.com/mishipay-ltd/MishipayiOSLibrary.git'
+```
+For reference, see example [podfile](https://github.com/vickydcoder/SampleiOSApp/blob/master/Podfile)
+
+Step 2. Do ```pod install --repo-update```
+>>>>>>> 5c6f53984472e2e344873071485141d961dff675
 
 Step 3. Add keys to `info.plist ` 👇🏻
 
@@ -123,5 +145,8 @@ https://github.com/vickydcoder/SampleiOSApp
 This project is licensed under MIT license
 
 `Copyright 2021 | All Rights Reserved by MishiPay Ltd.`
+<<<<<<< HEAD
+=======
 
         
+>>>>>>> 5c6f53984472e2e344873071485141d961dff675

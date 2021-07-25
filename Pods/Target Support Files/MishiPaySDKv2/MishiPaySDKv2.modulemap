@@ -1,6 +1,0 @@
-framework module MishiPaySDKv2 {
-  umbrella header "MishiPaySDKv2-umbrella.h"
-
-  export *
-  module * { export * }
-}

@@ -1,0 +1,4 @@
+framework module MishiPaySDKv2 {
+  header "MishiPaySDKv2-Swift.h"
+  requires objc
+}

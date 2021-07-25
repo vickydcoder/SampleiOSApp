@@ -1,0 +1,21 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.5 (swiftlang-1300.0.19.104 clang-1300.0.18.4)
+// swift-module-flags: -target x86_64-apple-ios14.3-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name MishipayiOSLibrary
+import Foundation
+@_exported import MishipayiOSLibrary
+import Swift
+import UIKit
+import WebKit
+import _Concurrency
+@_hasMissingDesignatedInitializers public class ImageProvider {
+  public static func backArrow() -> UIKit.UIImage
+  @objc deinit
+}
+public class WebAppConfig {
+  public init(isUserLoginRequired: Swift.String, isBasketTransferNeeded: Swift.String, isPaymentAllowed: Swift.String, userEmail: Swift.String, sessionId: Swift.String, lat: Swift.String, long: Swift.String, openController: UIKit.UIViewController, webAppCallback: MishipayiOSLibrary.WebAppCallBack)
+  public func startShoppingCart()
+  @objc deinit
+}
+public protocol WebAppCallBack {
+  func transactionResult(orderId: Swift.String, transactionStatus: Swift.String, transactionAmount: Swift.Double)
+}
