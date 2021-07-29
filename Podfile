@@ -1,7 +1,7 @@
 # Uncomment the next line to define a global platform for your project
 platform :ios, '14.3'
 
-source 'https://github.com/vickydcoder/MishiPaySDKv2.git'
+source 'https://github.com/mishipay-ltd/mishipay-ios-sdk.git'
 source 'https://github.com/CocoaPods/Specs.git'
 
 target 'SampleiOSApp' do
@@ -9,6 +9,6 @@ target 'SampleiOSApp' do
   use_frameworks!
 
   # Pods for SampleiOSApp
- pod 'MishiPaySDKv2', '1.0.0'
+ pod 'mishipay-ios-sdk', '1.0.0'
 
 end

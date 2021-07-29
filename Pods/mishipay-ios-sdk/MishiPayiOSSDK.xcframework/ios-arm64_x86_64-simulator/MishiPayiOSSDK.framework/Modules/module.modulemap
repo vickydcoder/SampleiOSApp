@@ -1,0 +1,4 @@
+framework module MishiPayiOSSDK {
+  header "MishiPayiOSSDK-Swift.h"
+  requires objc
+}

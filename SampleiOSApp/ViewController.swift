@@ -6,7 +6,7 @@
 //
 
 import UIKit
-import MishiPaySDKv2
+import MishiPayiOSSDK
 class ViewController: UIViewController ,WebAppCallBack{
   
     
