@@ -5,12 +5,12 @@ DEPENDENCIES:
   - mishipay-ios-sdk (= 1.0.0)
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  https://github.com/mishipay-ltd/mishipay-ios-sdk.git:
     - mishipay-ios-sdk
 
 SPEC CHECKSUMS:
-  mishipay-ios-sdk: bc8df7ad5968cc7125488f1d76429e623b666acf
+  mishipay-ios-sdk: 1b90fc875e238afa3e0218b94a5a73656401fede
 
-PODFILE CHECKSUM: f6afdf83fecf7a483c37d26f4b8c1615c1df9f98
+PODFILE CHECKSUM: e0d628880285cdb74ae78c435477b12aa4984329
 
 COCOAPODS: 1.10.2
